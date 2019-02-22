@@ -41,6 +41,11 @@ h2.header {
   margin: 20px 0;
 }
 
+.header_fixed {
+  font-size: 0.7em;
+  height: 60px;
+}
+
 .parallax-container {
   position: relative;
   overflow: hidden;
