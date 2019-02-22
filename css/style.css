@@ -30,6 +30,74 @@ main {
   padding-top: 120px;
 }
 
+.text_tooltip {
+  background-color: rgb(90, 88, 88);
+  width: 120px;
+  text-decoration: none;
+  padding: 0px 5px;
+  position: absolute;
+  right: 60px;
+  height: 25px;
+  margin-top: 15px;
+  opacity: 0;
+  transition: all .2s;
+}
+
+.text_tooltip:after {
+  content: "";
+  border-top: 0px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid rgb(90, 88, 88);
+  position: absolute;
+  right: -10px;
+  top: 0px;
+}
+
+nav {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 2;
+}
+
+nav .menu {
+  background-color: #7bac3f;
+  opacity: 0.95;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  line-height: 60px;
+  text-align: center;
+  width: 50px;
+  box-shadow: 2px 2px 7px #2d4d25;
+}
+
+.nav-items {
+  position: absolute;
+  right: 6px;
+  top: -210px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.nav-items a {
+  display: block;
+  margin: 10px 0;
+  color: #fff;
+  background-color: #7bac3f;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 50px;
+  box-shadow: 2px 2px 7px #2d4d25;
+}
+
+.nav-show {
+  opacity: 0.95;
+}
+
 .section_info {
   padding: 60px 60px;
 }
@@ -44,6 +112,9 @@ h2.header {
 .header_fixed {
   font-size: 0.7em;
   height: 60px;
+  box-shadow: 2px 2px 7px #2d4d25;
+  opacity: 0.95;
+
 }
 
 .parallax-container {
