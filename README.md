@@ -7,4 +7,5 @@ Tutorial Ensinando a Cria um One Page com HTML5, CSS, javascript e Jquery
  - Tolltips
  - Parallax  
  ## Link do Curso  
- [Curso Landind Page - DEVMEDIA](https://www.devmedia.com.br/curso/landing-page-como-criar-um-layout-com-html-css-e-javascript/1960)
+ [Curso Landind Page - DEVMEDIA](https://www.devmedia.com.br/curso/landing-page-como-criar-um-layout-com-html-css-e-javascript/1960)  
+ [ 1. capitulo](#landing-page-tutorial---devmedia)
