@@ -5,4 +5,6 @@ Tutorial Ensinando a Cria um One Page com HTML5, CSS, javascript e Jquery
  - Bar Topo Fixo
  - Botões de Navegação
  - Tolltips
- - Parallax
+ - Parallax  
+ ## Link do Curso  
+ [Curso Landind Page - DEVMEDIA](https://www.devmedia.com.br/curso/landing-page-como-criar-um-layout-com-html-css-e-javascript/1960)
